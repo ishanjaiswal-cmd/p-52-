@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+    color: #000080;
+}
+h2{
+    text-align: center;
+    color: #000080;
+}
+.header{
+    margin: 10mm;
+    background-color: #ffff00;
+    display: flex;
+    justify-content: center;
+    padding-top: 1%;
+}
+.origami:hover{
+    transform: scale(1.2);
+}
+
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity: 1;
+}
+.item:hover img{
+  opacity: 0.33;
+}
+
+.camel{
+    margin: 10mm;
+    background-color: #51e5f0;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+body {
+    background-color: #fa8072;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color :white;
+}
